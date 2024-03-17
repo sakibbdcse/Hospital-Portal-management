@@ -1,0 +1,52 @@
+/* Navbar */
+.active {
+    color: rgb(255, 47, 47) !important;
+}
+
+/* heder */
+.hero {
+    height: 100vh;
+}
+
+/* hero bg */
+.all-hero-bg {
+    width: 100%;
+    position: relative;
+    background-image: url(../../assets/images/bg.png);
+    background-size: cover;
+}
+
+.all-hero-bg::after,
+.all-hero-bg::before {
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    width: 33%;
+}
+
+.all-hero-bg::after {
+    right: 0;
+    background-color: #3A4256;
+    z-index: -100;
+}
+
+/* buissness card */
+.info {
+    height: 120px;
+    padding: 2rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.info-grayPrimary {
+    background-color: #1CC7C1;
+}
+
+.info-grayDark {
+    background-color: #3A4256;
+}
+
+.info-icon svg {
+    font-size: 3rem;
+}

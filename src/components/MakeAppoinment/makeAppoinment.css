@@ -1,0 +1,35 @@
+.Make-appoinment {
+    background-image: url(../../assets/images/appointment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 420px;
+    background-position: center center;
+}
+
+.indexing {
+    z-index: 1;
+}
+
+.indexing h5 {
+    color: #1CC7C1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Make-appoinment::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+}
+
+.Make-appoinment img {
+    height: 550px;
+    transform: translateY(-130px);
+}
