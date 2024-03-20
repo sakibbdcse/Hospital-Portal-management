@@ -1,5 +1,6 @@
 .bg-primary {
-    background-color: #1CC7C1 !important;
+    background: linear-gradient(93deg, #19d3ae 0.00%, #0fcfec 100.00%);
+    border-radius: 2px !important;
 }
 
 .btn a {

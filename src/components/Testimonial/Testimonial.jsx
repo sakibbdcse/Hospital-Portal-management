@@ -3,6 +3,7 @@ import people1 from '../../assets/images/people1.png'
 import people2 from '../../assets/images/people2.png'
 import people3 from '../../assets/images/people3.png'
 import TestimonialCard from './TestimonialCard'
+import './testimonial.css'
 const TestimonialInfo = [
     {
         name: 'Mark Down',
@@ -34,7 +35,7 @@ const Testimonial = () => {
                     <h5>Testimonials</h5>
                     <h1>Our Patient <br /> Feedbacks</h1>
                 </div>
-                <div className="card-testimonial mt-5">
+                <div className="card-testimonial row mt-5 justify-content-around" >
                     {TestimonialInfo.map(testimonial => <TestimonialCard testimonial={testimonial} />)}
                 </div>
             </div>

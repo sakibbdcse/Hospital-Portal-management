@@ -1,0 +1,22 @@
+.contact-section {
+    width: 100%;
+    position: relative;
+    background-image: url(../../assets//images/bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact-section::after {
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    width: 33%;
+}
+
+.contact-section::after {
+    width: 100%;
+    right: 0;
+    background-color: #3A4256;
+    z-index: -100;
+}

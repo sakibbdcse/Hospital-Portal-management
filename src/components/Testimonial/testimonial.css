@@ -1,0 +1,13 @@
+.section-heder h5 {
+    color: #1CC7C1;
+}
+
+/* info card css */
+.testimonial-card-info {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimonial-card-info h3 {
+    color: #1CC7C1;
+}

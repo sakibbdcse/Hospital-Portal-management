@@ -1,7 +1,7 @@
 import React from 'react'
 import heroImage from '../../assets/images/chair.png'
-import Button from '../Button/Button'
 import './heder.css'
+import { Link } from 'react-router-dom'
 const MainMenu = () => {
     return (
         <main>
@@ -14,7 +14,7 @@ const MainMenu = () => {
                     </small>
                     <br />
                     <br />
-                    <Button link='/' value='Get Appointment' />
+                    <Link to='/appoinment' relative="path" className='btn bg-primary text-uppercase text-white'>Get Appointment</Link>
                 </div>
                 <div className="col-md-6">
                     <img src={heroImage} alt="cheir" className="img-fluid" />

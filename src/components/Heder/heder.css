@@ -23,6 +23,7 @@
     position: absolute;
     top: 0;
     width: 33%;
+    z-index: -1;
 }
 
 .all-hero-bg::after {

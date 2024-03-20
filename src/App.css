@@ -1,3 +1,13 @@
 a {
   text-decoration: none;
 }
+
+.cm-color {
+  text-transform: uppercase;
+  color: #1CC7C1;
+}
+
+.cm-second-color {
+  text-transform: uppercase;
+  color: #3A4256;
+}

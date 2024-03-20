@@ -1,0 +1,58 @@
+/* hero bg */
+.appoinment-hero-info {
+    width: 100%;
+    position: relative;
+    background-image: url(../../assets/images/bg.png);
+    background-size: cover;
+}
+
+.appoinment-hero-info::after,
+.appoinment-hero-info::before {
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    width: 33%;
+    z-index: -1;
+}
+
+.appoinment-hero-info::after {
+    right: 0;
+    background-color: #3A4256;
+    z-index: -100;
+}
+
+/* react calender */
+.react-calendar {
+    border: none !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem 1rem 5rem 1rem;
+}
+
+.react-calendar__tile--active {
+    background: #1CC7C1 !important;
+    border-radius: 0.3rem;
+}
+
+/* appontment-card */
+.appontment-card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-primary {
+    color: white !important;
+    background: linear-gradient(93deg, #19d3ae 0.00%, #0fcfec 100.00%);
+    border-radius: 2px !important;
+}
+
+.btn a {
+    color: azure;
+}
+
+.close-icon {
+    color: red;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: right;
+}
