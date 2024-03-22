@@ -53,7 +53,7 @@ const BokingAppointmnet = ({ bokingAppoinmentDate }) => {
                 <div className="row">
                     <h1 className='cm-color text-center'>Available Appointments Date: {bokingAppoinmentDate.toDateString()}</h1>
                     {BokindInfo.map(bokingAppoinment => (
-                        <BokingCard key={bokingAppoinment.subject} bokingAppoinment={bokingAppoinment} />
+                        <BokingCard key={bokingAppoinment.subject} bokingAppoinment={bokingAppoinment} date={bokingAppoinmentDate} />
                     ))}
                 </div>
             </div>
