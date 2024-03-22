@@ -56,3 +56,8 @@
     cursor: pointer;
     text-align: right;
 }
+
+/* from */
+form {
+    width: 25rem;
+}

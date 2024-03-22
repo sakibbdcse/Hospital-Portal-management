@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import AppoinmentModal from './AppoinmentModal'
-const BokingCard = ({ bokingAppoinment, keys }) => {
+const BokingCard = ({ bokingAppoinment, date }) => {
     const [modalIsOpen, setIsOpen] = useState(false);
 
     function openModal() {
@@ -25,7 +25,7 @@ const BokingCard = ({ bokingAppoinment, keys }) => {
                     <small>{bokingAppoinment.specialization}</small>
                     <p>{bokingAppoinment.totalSpach} Available</p>
                     <button onClick={openModal} className='cm-color btn bg-primary '>Book APPOINMENT</button>
-                    <AppoinmentModal modalIsOpen={modalIsOpen} appoinmentData={bokingAppoinment.subject} closeModal={closeModal} />
+                    <AppoinmentModal modalIsOpen={modalIsOpen} appoinmentData={bokingAppoinment.subject} closeModal={closeModal} date={date} />
                 </div>
             </div>
         </div>
