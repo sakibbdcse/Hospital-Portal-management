@@ -1,0 +1,37 @@
+/* dashboard css */
+.deshboard {
+    background: #f4fdfb;
+    height: 100vh;
+}
+
+/* silde bar */
+.slide-bar {
+    background: linear-gradient(180deg, #19d3ae 0.00%, #0fcfec 100.00%);
+}
+
+/* react calender */
+.react-calendar {
+    border: none !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem 1rem 5rem 1rem;
+}
+
+.react-calendar__tile--active {
+    background: #1CC7C1 !important;
+    border-radius: 0.3rem;
+}
+
+/*  */
+thead {
+    border-style: none !important;
+}
+
+tr {
+    border-style: non !important;
+}
+
+.appoinment-date {
+    margin-top: 3rem;
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
