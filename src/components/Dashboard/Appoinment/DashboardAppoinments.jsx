@@ -1,11 +1,11 @@
 import React from 'react'
-import Sidebar from './Sidebar'
-import Calander from './Calander'
 import AppoinmentDate from './AppoinmentDate'
-import './dashboard.css'
-const Dashboard = () => {
+import '../dashboard.css'
+import Sidebar from '../Sidebar'
+import Calander from './Calander'
+const DashboardAppoinments = () => {
     return (
-        <section className='deshboard'>
+        <section className='deshboard-appoinments'>
             <div className="container-fluid h-100 row">
                 <div className="col-md-2 slide-bar">
                     <Sidebar />
@@ -22,4 +22,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default DashboardAppoinments
