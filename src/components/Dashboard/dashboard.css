@@ -38,5 +38,19 @@ tr {
 
 /* appoinment */
 .deshboard-appoinments {
+    background: #dffbfa;
+    height: 100vh;
+}
+
+.resent-appoinmnets {
+    background: #ffffff;
+}
+
+.table {
+    border-collapse: inherit;
+}
+
+/* Allpatients */
+.Allpatients {
     height: 100vh;
 }

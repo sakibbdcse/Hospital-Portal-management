@@ -7,6 +7,7 @@ import Login from './pages/Login/Login';
 import Dashboard from './pages/Dashboard/Dashboard';
 import AppoinmentDashboard from './pages/Dashboard/Appoinment';
 import AddDoctor from './pages/Dashboard/AddDoctor';
+import Paiteints from './pages/Dashboard/Paiteints';
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login" element={<Login />}/>
           <Route path="/dashboard" element={<Dashboard />}/>
           <Route path="/dashboard/appoinment" element={<AppoinmentDashboard />}/>
+          <Route path="/dashboard/patients" element={<Paiteints />}/>
           <Route path="/dashboard/add-doctor" element={<AddDoctor />}/>
         </Routes>
       </BrowserRouter>

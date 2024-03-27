@@ -1,9 +1,9 @@
 import React from 'react'
-import DashboardCm from '../../components/Dashboard/DashboardCm'
+import DashboardCmp from '../../components/Dashboard/DashboardCm'
 const Dashboard = () => {
     return (
         <div>
-            <DashboardCm />
+            <DashboardCmp />
         </div>
     )
 }

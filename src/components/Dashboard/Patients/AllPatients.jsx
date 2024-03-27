@@ -1,8 +1,8 @@
 import React from 'react'
+import ResentAppointments from '../ResentAppointments'
 import Sidebar from '../Sidebar'
 import '../dashboard.css'
-import ResentAppointments from '../ResentAppointments'
-function AddDoctor() {
+const AllPatients = () => {
     return (
         <section className="Allpatients">
             <div className="container-fluid h-100 row">
@@ -17,4 +17,4 @@ function AddDoctor() {
     )
 }
 
-export default AddDoctor
+export default AllPatients
